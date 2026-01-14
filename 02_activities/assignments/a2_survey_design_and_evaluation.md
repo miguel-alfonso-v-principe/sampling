@@ -40,29 +40,92 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `2`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of the survey is to understand what issues matter the most to voters for the upcoming 202X election. The survey aims to determine what voters find important, as well as compare our performance against the opposing party (as well as the third parties). The focus will be relevance and timeliness given the need and timeline. A secondary focus on reproducibility, to compare with previous polls is also considered.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+The target population is all eligible voters in the country, i.e. Canadian citizens who will be 18 or older on election day. 
+The sampling frame is the combination of National Registry of Electors with a list of telephone numbers to match.
+
+The survey will employ a multi-stage sampling approach, with a focus on timeliness. The first is a stratified sampling approach that will attempt to sample nationwide at a large scale, Canada will be separated into census metropolitan areas for urban areas; then the rural areas will be grouped based on province or territory (first sampling units, n = 27). For convenience due to the short amount of time, systematic sampling will be done where every 5000 phone numbers were selected (second sampling units).
+
+The observational unit will be each person who responds to the survey.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
+1. From 1 to 10, with 1 being unlikely and 10 being likely, how likely will you be voting in this upcoming election?
+
+
+2. If the election was today, which of the following parties would you most likely vote for?
+[] Maple Party (our party)
+[] Leafs Party (leading Opposition)
+[] Old Republic Party
+[] Turqouise Party
+[] Bloc Canadiens 
+
+3. What are the 3 most important issues facing Canada today?
+[] Affordability
+[] Healthcare
+[] Economy
+[] Climate Change
+[] Crime
+[] Foreign Policy
+[] Immigration
+[] Indigenous Affairs
+
+4. How much do you agree with the following statement:
+'The Maple Party adequately tackles key issues facing Canada today.'
+[] Strongly disagree
+[] Disagree
+[] Neutral
+[] Agree
+[] Strongly agree
+[] Don't know
+
+5. How much do you agree with the following statement:
+'Maple Party leader Mark Justin is a trustworthy politician.'
+[] Strongly disagree
+[] Disagree
+[] Neutral
+[] Agree
+[] Strongly agree
+[] Don't know
+
+6. Has your view of Mark Justin and/or the Maple Party changed during the past 3 months?
+[] Worsened 
+[] Improved 
+[] Stayed the same
+
+7. How much do you agree with the following statement:
+'The Leafs Party could adequately tackle key issues facing Canada today.'
+[] Strongly disagree
+[] Disagree
+[] Neutral
+[] Agree
+[] Strongly agree
+[] Don't know
+
+8. How much do you agree with the following statement:
+'Leafs Party leader Pierre Stephen is a trustworthy politician.'
+[] Strongly disagree
+[] Disagree
+[] Neutral
+[] Agree
+[] Strongly agree
+[] Don't know
+
+9. Has your view of Pierre Stephen and/or the Leafs Party changed during the past 3 months?
+[] Worsened 
+[] Improved 
+[] Stayed the same
+
+
 10. write your question here... (optional)
 ```
 
@@ -71,7 +134,68 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type
+The first sampling method was stratification based on geography. An additional form of sampling, called rejective sampling, is a form of convenience sampling. A pre-set proportion of respondents who were not volunteers were excluded in the survey. 
+
+2. Sample size
+Target size was 20,000; the actual number when not counting those excluded by the convenience sampling is 16,149.
+
+3. Target population
+The target population was all persons 15 and older except for those living in the territories or institutions (e.g. prisons).
+
+4. Sampling frame
+The sampling frame used was a union of all telephone numbers in use within Canada and the Address Register. 
+
+5. Survey mode(s) 
+The survey was done electronically by an online questionnaire or via telephone.
+
+6. Timeline
+This data was collected from September 4th to December 28th, 2018.
+
+7. Response rate
+The response rate was 41.9%. 
+
+8. Weights
+Resultant estimates were weighted/adjusted to be representative of everyone. There were weights to account for likelihood of a household being contacted (i.e. multiple numbers), adjustments for telephone numbers not associated with business or non-responding households. 
+
+Each person's response was weighed by number of >15 y/o in their households.
+
+Stratification based on income, province, age, and sex required weighing based on known external references (i.e. census data).
+
+9. Data processing
+Both telephone and electronic modes were submitted to a centralized database in Ottawa.
+
+10. Cleaning, imputation, etc
+
+In terms of cleaning, there was coding done for write-in 
+responses, using a priori categories and followed standardized stratification principle. 
+Other data processing methods, included eliminating duplicates and removing out-of-scope respondents.
+
+Imputation was performed in item non-response on a case-by-case basis (i.e. depending on question and context, it can be deemed not stated). 
+
+Most imputations were done by using other records through a score function, where the imputed respons was selected from a surveyor with similar characteristics (this was nine steps focused on income, volunteering variables, and solicitation). 
+
+
+11. Sources of error
+Two types of error: non-sampling and sampling.
+
+A major source of non-sampling error is non-response, both item and total non-response. Another source is human nature, interviewers may misunderstand instructions or respondents may make typos or select the wrong option.
+
+For sampling errors, the method of telephone may be why there were more male and younger non-respondents (2.6% in the survey as opposed to 7.4%)
+
+12. Limitations, known biases, etc
+A limitation noted in the Microdata file repeatedly is the low prevelance of volunteers, resulting in difficulty making accurate estimations. The survey went to great lengths to account for this, by rejective sampling but even then it falls short of its planned 20,000 sample size.
+
+Inferred limitations is the use of telephone addresses in 2018. Some households may not have a registered phone number attached or have an erroneous address attached (this could account for the low participant in youth, who are less likely to have a landline).  Furthermore, exclusion of the Northern Territories could be a source of bias, as this population, while making up less than 1% of the country, could affect the results. 
+
+Another limitation is in its reproducibility, due to changes in this survey, it cannot be faithfully compared to previous iterations. 
+
+
+13. Link to documentation and any additional sources used
+
+The vast majority of this information came from the Public Use Microdata File published by Statistics Canada (link here: https://www150.statcan.gc.ca/n1/en/catalogue/45250011).
+
+Some more information (essentially understanding the purpose and results of this survey) were taken from a Volunteer Canada presentation: https://volunteer.ca/data-on-giving-volunteering-and-participating-in-canada/.
 ```
 
 ## Rubric
