@@ -52,7 +52,7 @@ Describe your target population, sampling frame, sampling units, and observation
 The target population is all eligible voters in the country, i.e. Canadian citizens who will be 18 or older on election day. 
 The sampling frame is the combination of National Registry of Electors with a list of telephone numbers to match.
 
-The survey will employ a multi-stage sampling approach, with a focus on timeliness. The first is a stratified sampling approach that will attempt to sample nationwide at a large scale, Canada will be separated into census metropolitan areas for urban areas; then the rural areas will be grouped based on province or territory (first sampling units, n = 27). For convenience due to the short amount of time, systematic sampling will be done where every 5000 phone numbers were selected (second sampling units).
+The survey will employ a multi-stage sampling approach, with a focus on timeliness while attempting to not sacrifice completeness (especially on the geographic scale). The first is a stratified sampling approach that will attempt to sample nationwide at a large scale, Canada will be separated into census metropolitan areas for urban areas; then the rural areas will be grouped based on province or territory (first sampling units, n = 27). For convenience due to the short amount of time, systematic sampling will be done where every 5000 phone numbers were selected (second sampling units).
 
 The observational unit will be each person who responds to the survey.
 ```
